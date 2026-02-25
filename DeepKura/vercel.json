@@ -1,0 +1,16 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/xone-v1",
+            "destination": "https://api-nartinvest.my.id/api/xone-v1"
+        },
+        {
+            "source": "/api/kurasi-v1",
+            "destination": "https://api-nartinvest.my.id/api/kurasi-v1"
+        },
+        {
+            "source": "/((?!api/|.*\\..*).*)",
+            "destination": "/index.html"
+        }
+    ]
+}

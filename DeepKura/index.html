@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/logo.svg?v=4" />
+  <link rel="mask-icon" href="/logo.svg?v=4" color="#0052D4" />
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f0f0f" media="(prefers-color-scheme: dark)">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, interactive-widget=resizes-content" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://deepkura.site/" />
+
+  <!-- Performance: Preconnect to external domains -->
+  <link rel="preconnect" href="https://api-nartinvest.my.id" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="dns-prefetch" href="https://firebaseio.com" />
+  <link rel="dns-prefetch" href="https://googleapis.com" />
+
+  <title>DeepKura - Advanced AI Stock Market Analysis</title>
+  <meta name="description"
+    content="DeepKura - Advanced AI Stock Analysis Tool. Analyzing US stock markets with precision and depth using specialized AI models." />
+  <meta name="keywords"
+    content="stock analysis, AI trading, US stock market, DeepKura, investment tools, nvda analysis, financial AI, predictive analytics, stock market insights" />
+  <meta name="author" content="NartCorp" />
+  <meta name="geo.region" content="ID" />
+  <meta name="geo.position" content="-0.7893;113.9213" />
+  <meta name="ICBM" content="-0.7893, 113.9213" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="robots" content="index, follow" />
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; connect-src 'self' https://api-nartinvest.my.id https://*.googleapis.com https://*.google.com https://*.firebaseio.com https://*.cloudfunctions.net identitytoolkit.googleapis.com securetoken.googleapis.com https://*.lottie.host https://lottie.host https://*.lottiefiles.com https://assets9.lottiefiles.com; script-src 'self' 'unsafe-inline' https://apis.google.com https://*.firebaseapp.com https://unpkg.com https://cdnjs.cloudflare.com; frame-src 'self' https://*.firebaseapp.com https://*.google.com https://accounts.google.com; worker-src 'self' blob:; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://deepkura.site https://lh3.googleusercontent.com https://*.firebaseapp.com; font-src 'self' data: fonts.gstatic.com;">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://deepkura.site/" />
+  <meta property="og:title" content="DeepKura - Advanced AI Stock Analysis" />
+  <meta property="og:description"
+    content="DeepKura provides advanced AI-driven analysis for US stock markets. Leveraging state-of-the-art models for deep technical and fundamental insights." />
+  <meta property="og:image" content="https://deepkura.site/og-image.jpg" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://deepkura.site/" />
+  <meta property="twitter:title" content="DeepKura - AI Stock Analysis" />
+  <meta property="twitter:description"
+    content="Advanced AI stock market analysis tool. Precision insights for US markets." />
+  <meta property="twitter:image" content="https://deepkura.site/og-image.jpg" />
+
+  <!-- Structured Data (JSON-LD) for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "DeepKura",
+    "description": "Advanced AI-powered stock market analysis tool providing deep technical insights and general market knowledge for US stocks.",
+    "url": "https://deepkura.site",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "DeepKura"
+    }
+  }
+  </script>
+  <script>
+    (function () {
+      const savedTheme = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+      if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+        document.documentElement.classList.add('dark');
+        document.documentElement.style.backgroundColor = '#0f0f0f';
+      } else {
+        document.documentElement.classList.remove('dark');
+        document.documentElement.style.backgroundColor = '#ffffff';
+      }
+    })();
+  </script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

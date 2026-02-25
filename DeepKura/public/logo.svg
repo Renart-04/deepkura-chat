@@ -1,0 +1,18 @@
+<svg width="500" height="500" viewBox="130 80 310 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="monogramBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#141E30;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#243B55;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <g transform="translate(100, 50)">
+        <path d="M50 50 L130 50 L130 350 L50 350 Z" fill="#0052D4"/>
+        
+        <path d="M140 50 L220 50 C280 50 320 90 320 150 L320 190 L140 190 Z" fill="#4364F7"/>
+        
+        <path d="M140 200 L320 200 L320 250 C320 310 280 350 220 350 L140 350 Z" fill="#6FB1FC"/>
+        
+        <circle cx="280" cy="120" r="15" fill="white"/>
+    </g>
+</svg>

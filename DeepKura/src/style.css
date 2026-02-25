@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+html,
+body {
+    @apply bg-white dark:bg-[#0f0f0f];
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    /* Prevent page scroll when keyboard opens */
+}
+
+strong {
+    color: #1f2937;
+    /* gray-800 */
+    font-weight: 600;
+}
+
+h1,
+h2,
+h3 {
+    color: #111827;
+    /* gray-900 */
+    font-weight: 600;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.dark strong {
+    color: #f3f4f6;
+    /* gray-100 */
+}
+
+.dark h1,
+.dark h2,
+.dark h3 {
+    color: #f9fafb;
+    /* gray-50 */
+}
+
+/* Mobile safe area support for keyboard */
+.pb-safe {
+    padding-bottom: env(safe-area-inset-bottom, 1rem);
+}
